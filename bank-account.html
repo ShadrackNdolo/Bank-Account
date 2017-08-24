@@ -31,7 +31,7 @@
 
             <div class="form-group">
               <label for="initialDeposit">Initial Deposit</label>
-              <input type="text" class="form-control" id="initialDeposit">
+              <input type="number" min="0" class="form-control" id="initialDeposit">
             </div>
 
             <button type="submit" id="createAccountButton">Create Account</button>
@@ -39,7 +39,7 @@
 
           <h2>Current Balance</h2>
           <div id="currentBalance">
-
+            <p></p>
           </div>
         </section>
 
@@ -54,7 +54,7 @@
           <form id="depositAmount">
             <div class="form-group">
               <label for="enterDepositAmount">Deposit Amount</label>
-              <input type="text" class="form-control" id="enterDepositAmount">
+              <input type="number" min="0" class="form-control" id="enterDepositAmount">
             </div>
             <button type="submit" id="depositButton">Deposit</button>
           </form>
@@ -62,9 +62,9 @@
           <form id="withdrawAmount">
             <div class="form-group">
               <label for="enterWithdrawAmount">Withdraw Amount</label>
-              <input type="text" class="form-control" id="enterWithdrawAmount">
+              <input type="number" min="0" class="form-control" id="enterWithdrawAmount">
             </div>
-            <button type="submit" id="withdrawButton">Deposit</button>
+            <button type="submit" id="withdrawButton">Withdraw</button>
           </form>
 
         </section>
