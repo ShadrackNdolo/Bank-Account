@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.min.css" text="text/css">
+  <link rel="stylesheet" href="css/styles.css" text="text/css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+    <!--Header-->
+    <header>
+      <h1>CS Bank</h1></header>
+    <!--Create account section-->
+    <section class="section1">
+      <h2>Register New account.</h2>
+      <form id="createNewAccount">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" class="form-control" id="name">
+        </div>
+        <div class="form-group">
+          <label for="initialDeposit">Initial Deposit</label>
+          <input type="text" class="form-control" id="initialDeposit">
+        </div>
+        <button type="submit" id="createAccountButton">Create Account</button>
+      </form>
+    </section>
+
+    <!--Deposit or Withdraw funds-->
+
+    <section class="section2">
+      <h2> Deposit or Withraw funds</h2>
+      <form id="depositAmount">
+        <div class="form-group">
+          <label for="enterDepositAmount">Deposit Amount</label>
+          <input type="text" class="form-control" id="enterDepositAmount">
+        </div>
+        <button type="submit" id="depositButton">Deposit</button>
+      </form>
+
+      <form id="withdrawAmount">
+        <div class="form-group">
+          <label for="enterWithdrawAmount">Withdraw Amount</label>
+          <input type="text" class="form-control" id="enterWithdrawAmount">
+        </div>
+        <button type="submit" id="withdrawButton">Deposit</button>
+      </form>
+
+    </section>
+  </div>
+  <script src="js/jquery-3.2.1.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>
